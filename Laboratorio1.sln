@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio1", "Laboratorio1\Laboratorio1.csproj", "{59657CE2-21D0-462C-9D4D-8CCEBF362C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio1", "Laboratorio1\Laboratorio1.csproj", "{59657CE2-21D0-462C-9D4D-8CCEBF362C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laboratorio2", "Laboratorio2", "{296A30ED-BD34-4BC0-9B94-2CFD46155267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio2", "Laboratorio2\Laboratorio2.csproj", "{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{59657CE2-21D0-462C-9D4D-8CCEBF362C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59657CE2-21D0-462C-9D4D-8CCEBF362C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59657CE2-21D0-462C-9D4D-8CCEBF362C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2913B062-79BE-44C3-A8B9-DFBE5B5DEEBD} = {296A30ED-BD34-4BC0-9B94-2CFD46155267}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0986A948-F877-4FAE-B63A-22F83A2A53FB}
