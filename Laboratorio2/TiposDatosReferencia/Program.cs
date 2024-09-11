@@ -14,4 +14,3 @@ object2.Nombre = "Jose";
 // Al imprimir en consola vemos que ambas referencias imprimen el mismo valor Jose.
 Console.WriteLine(object2.Nombre);
 Console.WriteLine(object1.Nombre);
-

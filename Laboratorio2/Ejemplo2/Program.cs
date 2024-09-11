@@ -9,7 +9,7 @@ namespace Laboratorio21
         {
             //Asignando valor a variable estatica.
             MyClass.Valor = 1;
-            Console.WriteLine(Myclass.Valor);
+            Console.WriteLine(MyClass.Valor);
         }
     }
     public class MyClass
