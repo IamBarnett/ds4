@@ -1,16 +1,11 @@
-﻿// Creando nueva instancia
-using Laboratorio21;
+﻿// See https://aka.ms/new-console-template for more information
+int valor1 = 28; // Declaramos valor1 con un valor de 28
+valor2 = valor1; // Asignamos el valor de valor1 a valor2
+valor2 = 30;
 
-MyClass object1 = new MyClass();
-object1.Nombre = "Yeison";
-object1.Edad = 28;
+// Imprimiendo en consola variables
+Console.WriteLine(valor1);
+Console.WriteLine(valor2);
 
-// Asignando un variable a otra
-MyClass object2 = object1;
-
-// Este cambio en la propiedad afecta tanto a object1 como object2.
-object2.Nombre = "Jose";
-
-// Al imprimir en consola vemos que ambas referencias imprimen el mismo valor Jose.
-Console.WriteLine(object2.Nombre);
-Console.WriteLine(object1.Nombre);
+Console.WriteLine(valor1);
+Console.WriteLine(valor2);
