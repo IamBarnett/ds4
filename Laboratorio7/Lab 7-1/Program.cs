@@ -1,9 +1,15 @@
 ﻿using Lab_7_1;
 
-static void Main(string[] args)
+class Program
 {
-    Banco banco1 = new Banco();
-    banco1.Operar();
-    banco1.DepositosTotales();
-    Console.ReadKey();
+
+
+    static void Main(string[] args)
+    {
+        Banco banco1 = new Banco();
+        banco1.Operar();
+        banco1.DepositosTotales();
+        Console.ReadKey();
+    }
+
 }
