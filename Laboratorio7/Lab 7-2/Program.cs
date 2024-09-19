@@ -2,7 +2,7 @@
 
 class Program
 {
-static void Main(string)
+    static void Main(string)
 {
     JuegoDeDados j = new JuegoDeDados();
     j.Jugar();
