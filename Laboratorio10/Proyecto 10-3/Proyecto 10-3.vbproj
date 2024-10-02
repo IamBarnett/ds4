@@ -2,10 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <RootNamespace>Proyecto_10_3</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Laboratorio_10_1</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

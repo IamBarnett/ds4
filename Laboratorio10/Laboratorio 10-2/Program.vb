@@ -1,5 +1,4 @@
-﻿ModuleHandle area
-
+Module area
     Sub Main()
         Dim radio As Single
         Dim area As Single
@@ -12,10 +11,10 @@
         area = pi * radio ^ 2
         circunferencia = 2 * pi * radio
 
-        Console.WriteLine("El area es : {0}", area)
-        Console.WriteLine("La Circunferencia es : {0}", circunferencia)
+        Console.WriteLine("El area es: {0}", area)
+        Console.WriteLine("La circunferencia es: {0}", circunferencia)
 
         Console.ReadKey()
-    End Sub
 
+    End Sub
 End Module

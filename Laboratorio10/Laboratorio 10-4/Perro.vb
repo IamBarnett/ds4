@@ -1,23 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Laboratorio_10_4
-{
-    internal class Perro
-    {
-    }
-}
-public class Perro
+﻿Public Class Perro
     Public nombre As String
     Public raza As String
     Public altura As String
 
     Public Function comer(carne As String) As String
-        return nombre + "mide " + altura + " y comerá " + carne
+        Return nombre + "mide " + altura + "y comera " + carne
     End Function
+
     Public Sub dormir()
 
     End Sub
@@ -27,7 +16,7 @@ public class Perro
     Public Function calcularCosto(costo As Double, impuesto As Double) As Double
         Dim preciototal As Double
         preciototal = costo + (costo * impuesto)
-        return preciototal
+        Return preciototal
     End Function
 
     Public Sub New()
